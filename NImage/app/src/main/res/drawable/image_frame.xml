@@ -1,0 +1,22 @@
+<!-- res/drawable/image_frame.xml -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer stroke for the frame -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Background color of the frame -->
+            <stroke
+                android:width="4dp"
+            android:color="#CCCCCC" />
+        </shape>
+    </item>
+
+    <!-- Inner transparent rectangle to create a frame with padding -->
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Transparent color -->
+        </shape>
+    </item>
+
+</layer-list>

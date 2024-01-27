@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_main_activity"
+        android:icon="@drawable/ic_home"
+        android:title="Main Activity"/>
+    <item
+        android:id="@+id/nav_saved_images_activity"
+        android:icon="@drawable/ic_saved"
+        android:title="Saved Images"/>
+    <item
+        android:id="@+id/nav_delete_images_activity"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete Images"/>
+
+</menu>

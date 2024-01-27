@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NImage</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="buttonFetched">Fetch Image</string>
+    <string name="saveButton">Save Image</string>
+
+</resources>
